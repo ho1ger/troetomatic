@@ -1,0 +1,6 @@
+*.secret
+._*
+settings.py
+myvenv/
+images/
+__pycache__/
