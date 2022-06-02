@@ -6,15 +6,16 @@ If there are EXIF tags, the script will extract some meta data about camera, len
 
 ## Install
 
-- run `setup.sh` to create a virtual environment where a couple of dependancies are installed and a folder for images
-- fill in the settings template file with your detail and rename to `settings.py`
-- change the path to the virtual environment in the poster.py file (very top)
+- `git clone https://github.com/ho1ger/troetomatic.git`
+- run `setup.sh` from the repo to create a virtual environment where a couple of dependancies are installed, and to create a folder for images
+- fill in the `settings_CHANGEME.py` file with your Mastodon account details and rename to `settings.py`
+- change the path to the virtual environment in the `troetomatic.py` file (very top)
 - put a couple of images to the images folder
 - add a cronjob that fires the script every day at, e.g., 7:30
 
-    crontab -e
+    ``` crontab -e
 
-    30 7 * * * /path/to/troetomatic/poster.py
+    30 7 * * * /path/to/troetomatic/poster.py ```
 
 ## Licence
 
