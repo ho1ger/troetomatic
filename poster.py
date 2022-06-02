@@ -18,7 +18,7 @@ from settings import *
 # log in, etc.
 def __prepare():
     Mastodon.create_app(
-        'pytooterapp',
+        'troetomatic',
         api_base_url=server,
         to_file=clientcred)
     mastodon = Mastodon(
