@@ -163,7 +163,7 @@ photo = __getRandomFile(photodir)
 
 if photo:
 
-    text = __getInfo(photo) + "\n\n(Dies ist ein automatischer Tröt, der aber trotzdem von ❤️ kommt!)\n\n#foto #fotos #photo #photos #photography"
+    text = __getInfo(photo) + "\n\n#foto #fotos #photo #photos #photography"
 
     # load image, get sizes, compute rescale factor
     image = Image.open(photo)
