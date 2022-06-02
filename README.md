@@ -13,9 +13,9 @@ If there are EXIF tags, the script will extract some meta data about camera, len
 - put a couple of images to the images folder
 - add a cronjob that fires the script every day at, e.g., 7:30
 
-    ``` crontab -e
+        crontab -e
 
-    30 7 * * * /path/to/troetomatic/poster.py ```
+        30 7 * * * /path/to/troetomatic/poster.py
 
 ## Licence
 
