@@ -15,7 +15,7 @@ If there are EXIF tags, the script will extract some meta data about camera, len
 
         crontab -e
 
-        30 7 * * * /path/to/troetomatic/poster.py
+        30 7 * * * /path/to/troetomatic/troetomatic.py
 
 ## Licence
 
